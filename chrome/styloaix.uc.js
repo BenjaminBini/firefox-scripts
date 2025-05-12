@@ -505,9 +505,9 @@
 
   class UserStyle {
     constructor(file) {
-      this.type = file.leafName.endsWith('us.css') ?
+      this.type = file.leafName.endsWith('.us.css') ?
                     _uc.sss.USER_SHEET :
-                  file.leafName.endsWith('as.css') ?
+                  file.leafName.endsWith('.as.css') ?
                     _uc.sss.AGENT_SHEET :
                     _uc.sss.AUTHOR_SHEET;
       this.file = file;
